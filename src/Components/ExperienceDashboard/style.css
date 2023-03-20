@@ -1,0 +1,109 @@
+.experience__container__dashboard {
+    /* width: 100%; */
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.experience__Card {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 50%; */
+    gap: 10px;
+}
+
+.experience_main_div {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 15px;
+}
+
+.experience_Cards {
+    display: flex;
+    gap: 10px;
+    background: #e7e7e7;
+    gap: 30px;
+    width: 46%;
+    padding: 15px;
+}
+
+.experience_demo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.experience_title_date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .experience_title_date p {
+    color: white;
+    background: #191018;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 12px;
+} */
+
+.experience__button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.experience_modal_edit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    /* background-color: rgb(17, 162, 17); */
+    background-color: #191018;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px #00000030;
+}
+
+.experience_modal_delete {
+    padding: 0.5rem 1rem;
+    display: flex;
+    background-color: #ff7262;
+    border-radius: 7px;
+    color: #fff;
+    border: 0;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #00000030;
+}
+
+.experience_modal_addbtn {
+    display: flex;
+    align-items: center;
+    width: 49%;
+    justify-content: center;
+}
+
+.experience_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 135px;
+    height: 53px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #191018;
+    color: white;
+    font-size: 35px;
+}
+@media (max-width: 800px) {
+    .experience_Cards {
+        width: 100%;
+    }
+}

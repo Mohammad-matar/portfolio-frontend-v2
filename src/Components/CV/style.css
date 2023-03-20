@@ -1,0 +1,13 @@
+.cv_btn button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #191018;
+    border-radius: 7px;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: none;
+}

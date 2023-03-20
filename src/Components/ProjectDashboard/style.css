@@ -1,0 +1,14 @@
+.experience__project__btn{
+    display: flex;
+    gap: 10px;
+}
+
+.project_edit_form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+}
+.project_form{
+    width: 50%;
+}

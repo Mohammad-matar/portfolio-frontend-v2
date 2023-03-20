@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Nunito&family=Nunito+Sans&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.sweetalert_button_delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #ff7262;
+    color: white;
+}
+
+.sweetalert_button_confirm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    margin: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+
+/* .swal2-actions:not(.swal2-loading) .swal2-styled {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  margin: 10px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #FF7262;
+  color: white;
+} */
+
+.sweetalert_button_cancel {
+    border: 0;
+    background-color: transparent;
+}
+
+.common_title {
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.18538em;
+    color: #000000;
+}
+
+.common_title span {
+    color: white;
+}
+
+.my_swal {
+    z-index: 1301 !important;
+}

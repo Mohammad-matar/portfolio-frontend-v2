@@ -1,0 +1,123 @@
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: black;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.TitleName {
+    color: white;
+}
+
+.header_container {
+    max-width: 1500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header_logo a {
+    display: block;
+}
+
+.logo_img {
+    width: 80px;
+    margin-top: 0.5rem;
+}
+
+.is-active {
+    color: #04aa6d !important;
+}
+
+.main-nav .menubar__button svg {
+    font-size: 27px;
+}
+
+ul.main-menu {
+    display: inline-flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 1rem;
+    padding: 0;
+    color: white;
+    z-index: 7;
+}
+
+ul.main-menu > li.menu-item:first-child {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.menu-item {
+    line-height: 2.4rem;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item li {
+    list-style-type: none;
+}
+
+.menu-item a {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    display: block;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.login_curose:hover {
+    cursor: pointer;
+}
+@media (max-width: 996px) {
+    .header {
+        padding: 0.5rem 0;
+    }
+
+    ul.main-menu {
+        margin: -1rem;
+    }
+
+    .main-nav .menubar__button {
+        display: block !important;
+        float: right;
+        background-color: #080808;
+        color: #fff;
+        padding: 0.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+        z-index: 10037;
+    }
+
+    .main-nav ul.menuq2 {
+        display: block !important;
+        position: absolute;
+        left: 0;
+        z-index: 10007;
+        background-color: black;
+        border-bottom: 3px solid grey;
+        right: 0;
+        padding-bottom: 17px;
+        padding-top: 57px;
+    }
+
+    .main-nav .menu-item a {
+        margin: 10px 17px;
+        text-align: center;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .main-nav ul.main-menu {
+        display: none;
+        padding: 10px;
+    }
+}
